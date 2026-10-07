@@ -1,0 +1,61 @@
+eps_meters,min_samples,points,cluster_count,clustered_reports,noise_count,noise_percentage,largest_cluster_size,largest_cluster_share,median_cluster_size,max_cluster_radius_m,single_coordinate_cluster_share,silhouette_supplementary,stability_ari,warnings,baseline_cluster_count_mean,baseline_cluster_count_sd,baseline_noise_percentage_mean,cluster_ratio_vs_baseline,selected,passes_selection_criteria
+75,3,1982,96,376,1606,81.03,11,0.0293,3.0,103.5,0.146,0.932,0.872,,43.5,6.2,92.6,2.21,False,False
+100,3,1982,110,451,1531,77.25,11,0.0244,4.0,191.9,0.091,0.905,0.798,,60.8,8.2,89.3,1.81,False,False
+150,3,1982,149,643,1339,67.56,16,0.0249,4.0,270.2,0.047,0.836,0.723,,106.0,5.0,80.3,1.41,False,False
+200,3,1982,181,858,1124,56.71,18,0.021,4.0,432.2,0.022,0.769,0.727,,152.5,7.6,68.8,1.19,False,False
+250,3,1982,198,1063,919,46.37,23,0.0216,4.0,781.0,0.01,0.69,0.737,,192.1,8.7,55.7,1.03,False,False
+300,3,1982,200,1243,739,37.29,23,0.0185,5.0,932.9,0.01,0.629,0.649,,206.3,5.9,44.1,0.97,False,False
+400,3,1982,172,1501,481,24.27,59,0.0393,6.0,2570.9,0.006,0.47,0.548,,189.7,8.3,25.1,0.91,False,False
+500,3,1982,115,1674,308,15.54,149,0.089,6.0,4245.1,0.009,0.356,0.331,WARNING: largest cluster radius is 4245 m (geographically huge).,132.0,7.9,13.9,0.87,False,False
+750,3,1982,41,1883,99,4.99,682,0.3622,6.0,9577.5,0.0,-0.184,0.119,WARNING: largest cluster radius is 9578 m (geographically huge).,37.9,3.1,3.7,1.08,False,False
+1000,3,1982,18,1947,35,1.77,1773,0.9106,4.5,15344.7,0.0,-0.383,0.116,"WARNING: eps=1000 m, min_samples=3 creates one cluster containing 91% of clustered reports. Review parameter choice. | WARNING: largest cluster radius is 15345 m (geographically huge).",13.0,2.9,1.2,1.38,False,False
+75,4,1982,44,217,1765,89.05,11,0.0507,5.0,103.5,0.114,0.941,0.831,"WARNING: eps=75 m, min_samples=4 labels 89.05% of reports as noise (almost everything is noise).",10.8,3.1,97.6,4.07,False,False
+100,4,1982,56,287,1695,85.52,11,0.0383,5.0,191.9,0.054,0.904,0.798,"WARNING: eps=100 m, min_samples=4 labels 85.52% of reports as noise (almost everything is noise).",17.3,3.1,96.0,3.24,False,False
+150,4,1982,77,411,1571,79.26,16,0.0389,5.0,220.7,0.026,0.86,0.732,,36.9,4.6,91.2,2.09,False,False
+200,4,1982,107,615,1367,68.97,18,0.0293,5.0,356.0,0.009,0.801,0.716,,66.0,5.5,83.1,1.62,False,True
+250,4,1982,127,818,1164,58.73,23,0.0281,5.0,637.9,0.008,0.721,0.731,,98.3,5.2,72.1,1.29,False,False
+300,4,1982,142,1028,954,48.13,23,0.0224,6.0,932.9,0.007,0.674,0.651,,119.9,5.7,60.4,1.18,False,False
+400,4,1982,135,1329,653,32.95,59,0.0444,7.0,1698.5,0.0,0.531,0.554,,135.2,6.9,37.7,1.0,False,False
+500,4,1982,90,1560,422,21.29,149,0.0955,8.5,4245.1,0.0,0.381,0.329,WARNING: largest cluster radius is 4245 m (geographically huge).,102.7,5.6,22.2,0.88,False,False
+750,4,1982,34,1842,140,7.06,681,0.3697,8.5,9579.9,0.0,-0.14,0.113,WARNING: largest cluster radius is 9580 m (geographically huge).,31.2,3.7,5.9,1.09,False,False
+1000,4,1982,14,1923,59,2.98,1770,0.9204,7.5,15323.7,0.0,-0.363,0.103,"WARNING: eps=1000 m, min_samples=4 creates one cluster containing 92% of clustered reports. Review parameter choice. | WARNING: largest cluster radius is 15324 m (geographically huge).",10.9,2.0,2.0,1.28,False,False
+75,5,1982,22,128,1854,93.54,11,0.0859,5.0,103.5,0.136,0.924,0.829,"WARNING: eps=75 m, min_samples=5 labels 93.54% of reports as noise (almost everything is noise).",3.0,1.5,99.1,7.33,False,False
+100,5,1982,29,174,1808,91.22,11,0.0632,5.0,191.9,0.103,0.925,0.79,"WARNING: eps=100 m, min_samples=5 labels 91.22% of reports as noise (almost everything is noise).",5.4,1.5,98.5,5.37,False,False
+150,5,1982,42,267,1715,86.53,16,0.0599,6.0,220.7,0.048,0.876,0.734,"WARNING: eps=150 m, min_samples=5 labels 86.53% of reports as noise (almost everything is noise).",13.2,2.9,96.2,3.18,False,False
+200,5,1982,61,415,1567,79.06,18,0.0434,6.0,338.1,0.016,0.814,0.73,,27.9,2.9,91.5,2.19,False,False
+250,5,1982,76,586,1396,70.43,23,0.0392,6.0,637.9,0.013,0.759,0.734,,48.4,6.2,83.7,1.57,True,True
+300,5,1982,95,793,1189,59.99,23,0.029,7.0,781.0,0.011,0.724,0.636,,71.5,6.4,73.3,1.33,False,False
+400,5,1982,104,1154,828,41.78,53,0.0459,8.5,1571.3,0.0,0.601,0.55,,99.5,6.0,49.9,1.05,False,False
+500,5,1982,79,1430,552,27.85,120,0.0839,11.0,2540.1,0.0,0.43,0.346,,89.3,4.9,30.7,0.88,False,False
+750,5,1982,35,1789,193,9.74,597,0.3337,10.0,9779.0,0.0,0.095,0.099,WARNING: largest cluster radius is 9779 m (geographically huge).,30.1,3.6,8.6,1.16,False,False
+1000,5,1982,11,1900,82,4.14,1764,0.9284,9.0,15331.7,0.0,-0.185,0.063,"WARNING: eps=1000 m, min_samples=5 creates one cluster containing 93% of clustered reports. Review parameter choice. | WARNING: largest cluster radius is 15332 m (geographically huge).",9.9,1.6,2.9,1.11,False,False
+75,6,1982,8,58,1924,97.07,11,0.1897,6.5,103.5,0.125,0.97,0.845,"WARNING: eps=75 m, min_samples=6 labels 97.07% of reports as noise (almost everything is noise).",1.3,0.9,99.6,6.15,False,False
+100,6,1982,11,78,1904,96.06,11,0.141,6.0,113.5,0.091,0.972,0.748,"WARNING: eps=100 m, min_samples=6 labels 96.06% of reports as noise (almost everything is noise).",1.8,1.1,99.4,6.11,False,False
+150,6,1982,20,152,1830,92.33,16,0.1053,7.0,191.9,0.05,0.93,0.69,"WARNING: eps=150 m, min_samples=6 labels 92.33% of reports as noise (almost everything is noise).",5.1,2.3,98.3,3.92,False,False
+200,6,1982,30,245,1737,87.64,18,0.0735,7.0,338.1,0.033,0.856,0.683,"WARNING: eps=200 m, min_samples=6 labels 87.64% of reports as noise (almost everything is noise).",12.0,2.4,95.8,2.5,False,False
+250,6,1982,51,436,1546,78.0,23,0.0528,7.0,637.9,0.02,0.805,0.702,,24.0,3.1,90.8,2.12,False,False
+300,6,1982,60,593,1389,70.08,23,0.0388,8.0,781.0,0.017,0.772,0.625,,40.0,4.9,83.1,1.5,False,True
+400,6,1982,86,1019,963,48.59,53,0.052,9.0,1349.0,0.0,0.627,0.528,,71.3,5.0,61.6,1.21,False,False
+500,6,1982,70,1316,666,33.6,119,0.0904,11.0,2545.5,0.0,0.466,0.367,,75.5,5.5,40.3,0.93,False,False
+750,6,1982,31,1718,264,13.32,536,0.312,18.0,8012.4,0.0,0.162,0.122,WARNING: largest cluster radius is 8012 m (geographically huge).,30.4,2.7,11.8,1.02,False,False
+1000,6,1982,12,1869,113,5.7,1647,0.8812,14.5,15506.8,0.0,-0.245,0.083,"WARNING: eps=1000 m, min_samples=6 creates one cluster containing 88% of clustered reports. Review parameter choice. | WARNING: largest cluster radius is 15507 m (geographically huge).",9.8,2.1,4.0,1.22,False,False
+75,8,1982,3,26,1956,98.69,10,0.3846,8.0,96.3,0.0,0.996,0.981,"WARNING: eps=75 m, min_samples=8 labels 98.69% of reports as noise (almost everything is noise).",0.1,0.4,99.9,30.0,False,False
+100,8,1982,3,27,1955,98.64,11,0.4074,8.0,103.5,0.0,0.995,0.891,"WARNING: eps=100 m, min_samples=8 labels 98.64% of reports as noise (almost everything is noise).",0.3,0.5,99.9,10.0,False,False
+150,8,1982,4,40,1942,97.98,12,0.3,10.0,204.5,0.0,0.969,0.721,"WARNING: eps=150 m, min_samples=8 labels 97.98% of reports as noise (almost everything is noise).",0.7,0.7,99.7,5.71,False,False
+200,8,1982,7,82,1900,95.86,17,0.2073,13.0,336.2,0.0,0.958,0.595,"WARNING: eps=200 m, min_samples=8 labels 95.86% of reports as noise (almost everything is noise).",1.7,1.3,99.2,4.12,False,False
+250,8,1982,19,197,1785,90.06,23,0.1168,9.0,375.7,0.0,0.839,0.577,"WARNING: eps=250 m, min_samples=8 labels 90.06% of reports as noise (almost everything is noise).",5.5,1.7,97.5,3.45,False,False
+300,8,1982,34,383,1599,80.68,23,0.0601,10.0,628.7,0.0,0.806,0.591,,11.9,2.9,93.9,2.86,False,False
+400,8,1982,52,681,1301,65.64,50,0.0734,10.5,1029.3,0.0,0.677,0.573,,32.0,3.3,80.2,1.62,False,False
+500,8,1982,59,1025,957,48.28,82,0.08,14.0,1852.8,0.0,0.567,0.347,,51.3,4.2,59.4,1.15,False,False
+750,8,1982,35,1610,372,18.77,480,0.2981,18.0,6915.9,0.0,0.24,0.096,WARNING: largest cluster radius is 6916 m (geographically huge).,30.9,3.7,20.4,1.13,False,False
+1000,8,1982,12,1822,160,8.07,1592,0.8738,16.0,15246.0,0.0,-0.279,0.068,"WARNING: eps=1000 m, min_samples=8 creates one cluster containing 87% of clustered reports. Review parameter choice. | WARNING: largest cluster radius is 15246 m (geographically huge).",10.3,2.6,7.2,1.17,False,False
+75,10,1982,0,0,1982,100.0,0,0.0,0.0,0.0,0.0,,0.0,"WARNING: eps=75 m, min_samples=10 labels 100.0% of reports as noise (almost everything is noise).",0.0,0.0,100.0,,False,False
+100,10,1982,1,10,1972,99.5,10,1.0,10.0,96.3,0.0,,0.321,"WARNING: eps=100 m, min_samples=10 labels 99.5% of reports as noise (almost everything is noise). | WARNING: eps=100 m, min_samples=10 creates one cluster containing 100% of clustered reports. Review parameter choice.",0.0,0.0,100.0,,False,False
+150,10,1982,2,21,1961,98.94,11,0.5238,10.5,121.8,0.0,0.957,0.661,"WARNING: eps=150 m, min_samples=10 labels 98.94% of reports as noise (almost everything is noise). | WARNING: eps=150 m, min_samples=10 creates one cluster containing 52% of clustered reports. Review parameter choice.",0.0,0.0,100.0,,False,False
+200,10,1982,3,40,1942,97.98,16,0.4,13.0,267.2,0.0,0.943,0.67,"WARNING: eps=200 m, min_samples=10 labels 97.98% of reports as noise (almost everything is noise).",0.3,0.5,99.8,10.0,False,False
+250,10,1982,6,79,1903,96.01,19,0.2405,12.5,329.7,0.0,0.952,0.625,"WARNING: eps=250 m, min_samples=10 labels 96.01% of reports as noise (almost everything is noise).",0.7,0.8,99.6,8.57,False,False
+300,10,1982,13,174,1808,91.22,23,0.1322,13.0,392.8,0.0,0.835,0.536,"WARNING: eps=300 m, min_samples=10 labels 91.22% of reports as noise (almost everything is noise).",2.5,1.2,98.4,5.2,False,False
+400,10,1982,27,432,1550,78.2,49,0.1134,14.0,932.7,0.0,0.748,0.535,,12.8,2.6,90.9,2.11,False,False
+500,10,1982,37,732,1250,63.07,61,0.0833,15.0,1857.5,0.0,0.622,0.362,,29.6,3.4,75.5,1.25,False,False
+750,10,1982,31,1467,515,25.98,407,0.2774,23.0,6307.6,0.0,0.265,0.184,WARNING: largest cluster radius is 6308 m (geographically huge).,31.9,2.7,30.7,0.97,False,False
+1000,10,1982,15,1793,189,9.54,1032,0.5756,34.0,16547.4,0.0,-0.081,0.233,"WARNING: eps=1000 m, min_samples=10 creates one cluster containing 58% of clustered reports. Review parameter choice. | WARNING: largest cluster radius is 16547 m (geographically huge).",10.8,1.7,11.4,1.39,False,False
