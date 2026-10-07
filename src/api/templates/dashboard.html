@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div id="dash" hidden>
+  <section class="kpis" aria-label="Key figures" id="kpis"></section>
+  <div class="grid-2">
+    <section class="card"><h2>Monthly pothole complaints (city-wide)</h2><div id="chart-city" class="chart" role="img" aria-label="Monthly pothole complaints"></div>
+      <p class="muted" id="city-note"></p></section>
+    <section class="card"><h2>Highest complaint-activity cluster</h2><div id="top-cluster"></div>
+      <p class="muted">“Activity” counts reports. It is not a measure of pothole severity.</p></section>
+  </div>
+  <section class="card"><h2>Reading these numbers</h2>
+    <ul class="plain">
+      <li>Counts are <strong>complaints</strong> filed on one civic-tech portal, not potholes.</li>
+      <li>Portal usage fell steeply over the period, so “recent” counts mostly reflect that decline.</li>
+      <li>Most reports are labelled noise by DBSCAN: they are isolated, not necessarily unimportant.</li></ul></section>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div id="sp" hidden>
+  <p class="callout" id="sp-def"></p>
+  <div class="grid-2">
+    <section class="card"><h2>Top wards by pothole complaints</h2><div id="bar-count" class="chart"></div></section>
+    <section class="card"><h2>Top wards by pothole share (≥ 50 complaints)</h2><div id="bar-share" class="chart"></div></section>
+  </div>
+  <div class="toolbar"><label>Search ward <input type="search" id="w-q" placeholder="ward name"></label><label><input type="checkbox" id="w-pers"> persistent only</label></div>
+  <div class="table-wrap"><table class="data" id="w-tbl"><caption class="sr">Ward-level complaint activity</caption><thead><tr></tr></thead><tbody></tbody></table></div>
+</div>
+{% endblock %}

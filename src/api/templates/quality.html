@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div id="dq" hidden>
+  <section class="kpis" id="dq-kpis"></section>
+  <div class="grid-2">
+    <section class="card"><h2>Date coverage: pothole complaints per month</h2><div id="chart-dq" class="chart" role="img"></div></section>
+    <section class="card"><h2>Coordinate quality (pothole reports)</h2><div class="table-wrap"><table class="data" id="cq"><thead><tr><th>Check</th><th>Count</th><th>%</th></tr></thead><tbody></tbody></table></div></section>
+  </div>
+  <section class="card"><h2>Category distribution (top categories)</h2><div class="table-wrap"><table class="data" id="cat"><thead><tr><th>Category</th><th>Sub-category</th><th>Rows</th><th>Pothole filter</th></tr></thead><tbody></tbody></table></div></section>
+  <section class="card"><h2>Secondary source: BBMP Fix My Street (separate; validation only)</h2><div id="sec"></div></section>
+</div>
+{% endblock %}

@@ -1,0 +1,108 @@
+{
+  "gate_passed": true,
+  "gate_rule": "usable pothole points >= 500 and months covered >= 24",
+  "file_encoding": "cp1252",
+  "row_count": 16071,
+  "column_count": 17,
+  "columns": [
+    "created_at",
+    "ward_id",
+    "title",
+    "description",
+    "sub_category_id",
+    "civic_agency_id",
+    "location",
+    "address",
+    "latitude",
+    "longitude",
+    "ward_title",
+    "category_id",
+    "category_title",
+    "sub_category_title",
+    "civic_agency_title",
+    "complaint_status_title",
+    "comment_count"
+  ],
+  "date_min": "2019-01-01T06:33:00+05:30",
+  "date_max": "2022-07-31T20:08:00+05:30",
+  "missing_timestamps": 0,
+  "months_with_data": 43,
+  "bengaluru_coverage": {
+    "rows_inside_boundary": 15411,
+    "rows_inside_boundary_pct": 95.89,
+    "boundary_source": "BBMP Ward Map - 2015 (198 wards), OpenCity bbmp-ward-information",
+    "boundary_vintage": "2015 delimitation (198 wards; in force through the data period)",
+    "boundary_type": "Union of official ward polygons (administrative; not an approximation)"
+  },
+  "coordinate_range_all": {
+    "lat_min": 12.7122605,
+    "lat_max": 13.1827557,
+    "lon_min": 77.4309412,
+    "lon_max": 77.80937426
+  },
+  "missing_coordinate_count": 0,
+  "missing_coordinate_pct": 0.0,
+  "valid_coordinate_count": 16071,
+  "pothole": {
+    "taxonomy_rows": 2252,
+    "valid_coordinates": 2252,
+    "inside_boundary": 2095,
+    "suspect_fallback_pin_rows_inside_boundary": 113,
+    "usable_for_dbscan": 1982,
+    "months_covered": 43,
+    "date_min": "2019-01-02T12:52:00+05:30",
+    "date_max": "2022-07-30T06:08:00+05:30"
+  },
+  "fallback_pin_rule": "coordinate shared by >= 8 complaints of any category",
+  "duplicates": {
+    "request_id_available_in_source": false,
+    "note": "Source has no request identifier. request_id is a surrogate hash of (timestamp, coordinates, sub-category and the report free text); duplicate_surrogate_key_* counts rows repeating that key.",
+    "unique_coordinates_all": 12971,
+    "unique_coordinates_pothole": 2015,
+    "pothole_reports_sharing_exact_coordinate_with_another_pothole_report": 365,
+    "all_reports_sharing_exact_coordinate": 4530,
+    "pothole_reports_with_another_pothole_report_within_10m": 484,
+    "coordinate_multiplicity_distribution_all": {
+      "1": 11541,
+      "2": 840,
+      "3": 281,
+      "4": 114,
+      "5": 62,
+      "6": 47,
+      "7": 27,
+      "8": 15,
+      "9": 13,
+      "10": 5,
+      "11": 5,
+      "12": 3
+    },
+    "max_coordinate_multiplicity_all_categories": 81,
+    "max_coordinate_multiplicity_pothole_reports": 43,
+    "fallback_pin_sensitivity_pothole_rows": {
+      "3": 406,
+      "5": 251,
+      "8": 113,
+      "15": 72,
+      "30": 47
+    },
+    "exact_duplicate_rows_raw_all_columns": 33,
+    "duplicate_surrogate_key_all": 47,
+    "duplicate_surrogate_key_pothole": 2
+  },
+  "generated_at": "2026-10-07T12:49:34+00:00",
+  "taxonomy": {
+    "included": [
+      {
+        "sub_category_id": 66,
+        "category": "Mobility - Roads, Footpaths and Infrastructure",
+        "sub_category": "Fixing/Reparing Potholes"
+      },
+      {
+        "sub_category_id": 594,
+        "category": "PWD",
+        "sub_category": "Repair of Potholes on Roads"
+      }
+    ],
+    "excluded_related_example": "Tarring Or Asphalting Of Existing Road (1623 rows) - resurfacing requests, not pothole reports under the source taxonomy"
+  }
+}
