@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block head %}<link rel="stylesheet" href="/static/vendor/leaflet.css">{% endblock %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading map data…</div>
+<div class="map-layout" id="maplayout" hidden>
+  <div id="map" role="application" aria-label="Interactive map of DBSCAN pothole-complaint clusters"></div>
+  <aside class="panel" aria-label="Map controls">
+    <h2>Layers</h2>
+    <label><input type="checkbox" id="l-clusters" checked> DBSCAN cluster visualization boundaries</label>
+    <label><input type="checkbox" id="l-centroids" checked> Cluster centroids</label>
+    <label><input type="checkbox" id="l-wards" checked> Ward complaint activity</label>
+    <label><input type="checkbox" id="l-persist"> Persistent complaint areas (wards)</label>
+    <label><input type="checkbox" id="l-grid"> Aggregated reports, 250 m cells (clustered)</label>
+    <label><input type="checkbox" id="l-noise"> Aggregated reports, 250 m cells (noise)</label>
+    <label><input type="checkbox" id="l-tiles" checked> OpenStreetMap basemap</label>
+    <h2>Ward shading</h2>
+    <select id="ward-metric" aria-label="Ward shading metric">
+      <option value="density">Pothole reports per km²</option>
+      <option value="share">Pothole share of all complaints</option>
+      <option value="total">Pothole reports (count)</option></select>
+    <div id="legend" class="legend"></div>
+    <p class="muted">Individual complaint locations are not shown. Polygons are <em>visualization boundaries</em> around clustered reports, not pothole areas.</p>
+    <div id="cluster-info" class="card tight" aria-live="polite"><p class="muted">Click a cluster for details.</p></div>
+  </aside>
+</div>
+{% endblock %}
+{% block scripts %}<script src="/static/vendor/leaflet.js"></script><script src="/static/map.js"></script>{% endblock %}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }} · Bengaluru Pothole Hotspot Detector</title>
+  <meta name="description" content="Historical analysis of where pothole-related civic complaints concentrate in Bengaluru, using DBSCAN.">
+  <link rel="stylesheet" href="/static/style.css">
+  {% block head %}{% endblock %}
+</head>
+<body data-page="{{ page }}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span>
+      <span><strong>Bengaluru Pothole Hotspot Detector</strong>
+      <small>Pothole complaint hotspot analysis using DBSCAN</small></span></a>
+    <nav aria-label="Primary" class="nav">
+      {% for key, (path, label) in pages.items() %}
+      <a href="{{ path }}" {% if key == page %}aria-current="page"{% endif %}>{{ label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+<section class="provenance" aria-label="Data provenance">
+  <div class="wrap prov-grid" id="provenance">
+    <div><span class="k">Data type</span><span class="v">Historical public civic complaint data</span></div>
+    <div><span class="k">Coverage</span><span class="v">2019–2022 <em id="prov-range"></em></span></div>
+    <div><span class="k">Source</span><span class="v">Janaagraha / I Change My City</span></div>
+    <div><span class="k">Last source retrieval</span><span class="v" id="prov-retrieved">loading…</span></div>
+  </div>
+</section>
+<main id="main" class="wrap">
+  <h1 class="page-title">{{ title }}</h1>
+  {% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="limitation"><strong>Limitation.</strong> {{ limitation }}</p>
+    <p class="muted">Complaint data: Janaagraha, “I Change My City Complaints Log – 2019 – 2022”, via OpenCity, licensed CC BY-SA.
+      Ward boundaries: BBMP Ward Map 2015 via OpenCity. Basemap © OpenStreetMap contributors. This is not a live BBMP feed.</p>
+  </div>
+</footer>
+<script src="/static/app.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

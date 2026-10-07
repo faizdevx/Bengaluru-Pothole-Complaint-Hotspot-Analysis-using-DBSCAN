@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div id="hs" hidden>
+  <div class="toolbar">
+    <label>Minimum reports <input type="number" id="f-min" min="0" value="0" class="narrow"></label>
+    <label>Observed trend <select id="f-trend"><option value="">All</option><option>Increasing</option><option>Stable</option><option>Decreasing</option><option>Insufficient data</option></select></label>
+    <span class="muted" id="count"></span>
+  </div>
+  <div class="table-wrap"><table class="data" id="tbl" aria-describedby="tbl-note">
+    <caption class="sr">Hotspot table. Select a column header to sort.</caption>
+    <thead><tr></tr></thead><tbody></tbody></table></div>
+  <p class="muted" id="tbl-note">Ranked by complaint count. “Complaint share” is the pothole share of all complaints inside the cluster footprint.
+    Recent activity compares the latest 3 months of the dataset with the earlier monthly average; read it against the city-wide change shown below.</p>
+  <p id="city-baseline" class="callout"></p>
+</div>
+{% endblock %}

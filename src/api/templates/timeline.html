@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div id="tl" hidden>
+  <div class="toolbar">
+    <label>Unit <select id="unit-type"><option value="city">City-wide</option><option value="ward">Ward</option><option value="cluster">DBSCAN cluster</option></select></label>
+    <label id="unit-wrap" hidden>Select <select id="unit-id"></select></label>
+  </div>
+  <section class="card"><h2 id="tl-title">Monthly pothole complaints</h2><div id="chart-a" class="chart" role="img"></div></section>
+  <section class="card"><h2>Pothole share of all complaints (reporting-bias control)</h2><div id="chart-b" class="chart" role="img"></div>
+    <p class="muted">Share = pothole complaints ÷ all complaints for the same unit and month. It controls for overall portal activity, not for population or awareness.</p></section>
+  <p id="tl-trend" class="callout"></p>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<article class="prose card">
+  <h2>What this is</h2>
+  <p>An analysis of <strong>pothole-related civic complaints</strong> in Bengaluru: where reports concentrate and which areas repeatedly show elevated complaint activity.
+  It analyses reported complaints. It does not detect potholes, measure depth or pavement quality, or claim that complaint density equals road-condition severity.</p>
+  <h2>DBSCAN</h2>
+  <p>DBSCAN groups points that have at least <code>min_samples</code> neighbours within <code>eps</code> metres (haversine distance). It needs no preset cluster count,
+  finds irregular shapes, and labels isolated reports as <em>noise</em> (label −1), which is kept and reported. Its weakness here: one global density threshold
+  under-detects sparse areas and can merge dense ones. See <a href="/parameters">DBSCAN Parameters</a>.</p>
+  <h2>Dataset provenance</h2>
+  <ul>
+    <li><strong>Source:</strong> Janaagraha / I Change My City, “Complaints Log 2019–2022” (CC BY-SA). <strong>Host:</strong> OpenCity. It is a civic-tech portal log, not a BBMP real-time API, and not a live feed.</li>
+    <li><strong>Boundary:</strong> union of BBMP 2015 ward polygons (198 wards), via OpenCity.</li>
+    <li><strong>Secondary:</strong> BBMP Fix My Street (May–June 2022), used only for validation and kept separate.</li>
+    <li>The file ends 2022-07-31. Free-text and address fields are dropped; no complainant data is stored or shown.</li>
+  </ul>
+  <h2>Reporting bias</h2>
+  <p>Complaints reflect who uses the portal and when: adoption, awareness, neighbourhood engagement and population all differ across Bengaluru, and portal use collapsed after 2019.
+  Normalising by all complaints in the same unit and month helps but does not remove these effects.</p>
+  <h2>Limitations</h2>
+  <ul id="lims"><li>Complaint concentration is not pothole density or severity; there is no physical ground truth.</li>
+  <li>Historical data only; sparse (most reports are noise); small clusters are weak evidence.</li>
+  <li>Some coordinates are locality-level or default pins; a rule-based exclusion is used and is a heuristic.</li>
+  <li>The city boundary is the 2015 ward union; reports outside it are excluded.</li>
+  <li>DBSCAN uses a global density threshold; parameter choice is a judgement (see the sweep).</li></ul>
+  <h2>Terminology</h2>
+  <p>The interface reports <em>complaint activity</em>, <em>spatial density</em>, <em>persistence</em> and <em>recent activity</em>. It never reports pothole “severity”.</p>
+</article>
+{% endblock %}

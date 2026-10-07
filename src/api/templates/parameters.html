@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div id="pm" hidden>
+  <section class="kpis" id="pm-kpis"></section>
+  <section class="card"><h2>Why these values</h2><div id="pm-why"></div></section>
+  <section class="card"><h2>k-distance plot</h2>
+    <img src="/reports-files/k_distance_plot.png" alt="k-distance plot of pothole reports with the selected eps marked" class="plot">
+    <p class="muted">A heuristic aid, not proof of an optimal eps.</p></section>
+  <section class="card"><h2>Parameter sweep</h2><p class="muted">Silhouette is supplementary and never used to choose parameters.</p>
+    <div class="table-wrap"><table class="data" id="sw"><thead><tr></tr></thead><tbody></tbody></table></div></section>
+  <section class="card"><h2>Automatic sanity warnings</h2><ul class="plain warn" id="pm-warn"></ul></section>
+</div>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="state" class="state" role="status" aria-live="polite">Loading…</div>
+<div class="explorer" id="ex" hidden>
+  <nav class="list" aria-label="Clusters"><ul id="cl-list"></ul></nav>
+  <section class="card" id="cl-detail" aria-live="polite"><p class="muted">Select a cluster.</p></section>
+</div>
+{% endblock %}
