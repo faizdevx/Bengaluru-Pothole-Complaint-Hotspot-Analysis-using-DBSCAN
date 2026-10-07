@@ -1,0 +1,15 @@
+{
+  "key": "fms_kml",
+  "label": "BBMP Fix My Street Data - May and June 2022 (KML)",
+  "source_identifier": "bbmp-fix-my-street-data/d1d4a437-95ee-4327-9154-f9a8933b2110",
+  "publisher": "BBMP (as republished by OpenCity)",
+  "host": "OpenCity",
+  "license": "Other (Public Domain)",
+  "url": "https://data.opencity.in/dataset/3a1a98f8-f924-4257-a2a1-3b957b55b9f5/resource/d1d4a437-95ee-4327-9154-f9a8933b2110/download/63b30ddf-5919-43d0-a6cf-17d5cc90a35c.kml",
+  "file": "bbmp_fixmystreet_2022.kml",
+  "retrieved_at": "2026-10-07T12:36:15+00:00",
+  "file_size": 33563015,
+  "sha256": "7c91b31b7bf4aa882f612c51f1ffd15ae2dee25ba3f32e67457024486ec421e6",
+  "http_status": 200,
+  "status": "downloaded"
+}

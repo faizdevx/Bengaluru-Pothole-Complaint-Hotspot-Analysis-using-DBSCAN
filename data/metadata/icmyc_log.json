@@ -1,0 +1,15 @@
+{
+  "key": "icmyc_log",
+  "label": "I Change My City Complaints Log - 2019 - 2022",
+  "source_identifier": "i-change-my-city-data/a60abf5c-3a15-4967-af32-c3074248580f",
+  "publisher": "Janaagraha (I Change My City)",
+  "host": "OpenCity",
+  "license": "Creative Commons Attribution Share-Alike (CC BY-SA)",
+  "url": "https://data.opencity.in/dataset/9183b0b2-b49a-40a9-b36d-275e1eaedb3f/resource/a60abf5c-3a15-4967-af32-c3074248580f/download/5f99b09a-64b5-45f0-ab18-4cf0a0cabf6d.csv",
+  "file": "icmyc_complaints_2019_2022.csv",
+  "retrieved_at": "2026-10-07T12:36:07+00:00",
+  "file_size": 8377752,
+  "sha256": "d951dbb484532421801f6cbd7550edaa6f9ab143da7c4d0e835ba574e4e6d5ac",
+  "http_status": 200,
+  "status": "downloaded"
+}

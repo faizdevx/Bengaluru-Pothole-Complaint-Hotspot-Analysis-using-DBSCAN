@@ -1,0 +1,239 @@
+category_id,category_title,sub_category_id,sub_category_title,count,included_as_pothole,share_pct
+6.0,Garbage and Unsanitary Practices,155,Clearance Of Garbage Dump Or Black Spot,3110,False,19.352
+15.0,"Mobility - Roads, Footpaths and Infrastructure",66,Fixing/Reparing Potholes,2247,True,13.982
+15.0,"Mobility - Roads, Footpaths and Infrastructure",67,Tarring Or Asphalting Of Existing Road,1623,False,10.099
+19.0,Animal Husbandry,77,Stray Dog Sterilisation/Animal Birth Control (ABC),770,False,4.791
+470.0,Streetlights,62,Maintenance/Repair Of Streetlights,648,False,4.032
+470.0,Street lighting,62,Maintenance/Repair Of Streetlights,646,False,4.02
+6.0,Garbage and Unsanitary Practices,442,Collection Of Door-to-door Garbage,361,False,2.246
+9.0,Others,42,Others,322,False,2.004
+15.0,"Mobility - Roads, Footpaths and Infrastructure",352,Tarring Or Asphalting Of Mud/Kutcha/Unpaved Road,260,False,1.618
+11.0,Pollution,46,Noise Pollution,253,False,1.574
+708.0,Yellow Spot,709,Report A Public Urination or Yellow Spot,253,False,1.574
+6.0,Garbage and Unsanitary Practices,444,Garbage Dumping In Vacant Lot/Land,240,False,1.493
+23.0,Water Supply and Services,182,Regular Water Supply,236,False,1.468
+15.0,"Mobility - Roads, Footpaths and Infrastructure",56,Flooding/Waterlogging Of Roads And Footpaths,226,False,1.406
+21.0,Traffic and Road Safety,84,Traffic Jams/Congestion Or Bottlenecks,210,False,1.307
+708.0,Yellow Spot,713,Report Garbage or Debris on Footpath,196,False,1.22
+4.0,Electricity and Power Supply,33,Regular Supply Of Electricity,190,False,1.182
+708.0,Yellow Spot,712,Report A Broken Footpath,175,False,1.089
+21.0,Traffic and Road Safety,192,Riding Without A Helmet,144,False,0.896
+472.0,Sewerage Systems,72,Maintenance And Repair Of Sewage Lines,143,False,0.89
+21.0,Traffic and Road Safety,188,No Parking,122,False,0.759
+2.0,Crime and Safety,27,Eve Teasing/Public Nuisance,118,False,0.734
+15.0,"Mobility - Roads, Footpaths and Infrastructure",343,Construction Of Roadside Drains,117,False,0.728
+470.0,Street lighting,165,Installation Of New Streetlights,116,False,0.722
+15.0,"Mobility - Roads, Footpaths and Infrastructure",61,Construction of new footpaths,116,False,0.722
+270.0,Roads and Footpaths,289,Build new footpaths and repair broken footpaths,113,False,0.703
+11.0,Pollution,44,Air Pollution,112,False,0.697
+21.0,Traffic and Road Safety,200,Wrong Parking,112,False,0.697
+708.0,Yellow Spot,714,Require A New Footpath,103,False,0.641
+21.0,Traffic and Road Safety,190,Parking On Footpath,98,False,0.61
+22.0,Parks & Recreation,85,Maintenance Of existing Parks,93,False,0.579
+18.0,Storm Water Drains,73,Maintenance And Repair Of Storm Water Drains,90,False,0.56
+15.0,"Mobility - Roads, Footpaths and Infrastructure",474,Removal Of Roadside Debris (Construction Material),90,False,0.56
+708.0,Yellow Spot,715,Require A New Public Toilet,87,False,0.541
+15.0,"Mobility - Roads, Footpaths and Infrastructure",422,Repair Of Existing Footpaths,83,False,0.516
+15.0,"Mobility - Roads, Footpaths and Infrastructure",58,Management Of Hawkers and Vendors,83,False,0.516
+6.0,Garbage and Unsanitary Practices,339,Build Garbage/Waste Composting Units,64,False,0.398
+708.0,Yellow Spot,714,2C- Remove Garbage or Debris on Footpath,62,False,0.386
+472.0,Sewerage Systems,311,Sewarage Or Storm Water Overflow,61,False,0.38
+472.0,Sewerage Systems,63,Maintenance And Repair Of Manholes,54,False,0.336
+6.0,Garbage and Unsanitary Practices,78,Fogging (Mosquito Menace) Or Pest Control,52,False,0.324
+382.0,Community Infrastructure and Services,162,Government Land/Property Encroachment,49,False,0.305
+454.0,Public Toilets,156,Construction Of New Public Toilet,47,False,0.292
+470.0,Street lighting,471,Installation/Maintenance Of Streetlight Timer,45,False,0.28
+23.0,Water Supply and Services,88,Stop Water Leakage,43,False,0.268
+15.0,"Mobility - Roads, Footpaths and Infrastructure",344,Desilting Existing Roadside Drains,42,False,0.261
+470.0,Streetlights,165,Installation Of New Streetlights,42,False,0.261
+18.0,Storm Water Drains,415,Desilting/Remove Blockage of Storm Water Drains,42,False,0.261
+473.0,Trees and Saplings,355,Maintenance Of Trees/Saplings,40,False,0.249
+382.0,Community Infrastructure and Services,53,Stop Unauthorised Construction,39,False,0.243
+15.0,"Mobility - Roads, Footpaths and Infrastructure",349,Need Covering Slabs For Roadside Drains,34,False,0.212
+6.0,Garbage and Unsanitary Practices,445,Stop/Prevent Burning Of Garbage,33,False,0.205
+21.0,Traffic and Road Safety,82,Autorickshaws Meter Issues,31,False,0.193
+19.0,Animal Husbandry,436,Controlling Of Stray Pigs,31,False,0.193
+11.0,Pollution,47,Water Pollution,29,False,0.18
+472.0,Sewerage Systems,380,Construction of Sewage Lines,29,False,0.18
+708.0,Yellow Spot,713,2B- Repair Broken Footpath,29,False,0.18
+473.0,Trees and Saplings,180,Defacement Of Trees,28,False,0.174
+19.0,Animal Husbandry,76,Removal Of Dead Animals,27,False,0.168
+7.0,Lakes,159,Maintenance Of Lake Surrounding,27,False,0.168
+1.0,Certificates,148,Property Tax,27,False,0.168
+21.0,Traffic and Road Safety,189,One Way/No Entry,25,False,0.156
+21.0,Traffic and Road Safety,191,Riding On Footpath,25,False,0.156
+21.0,Traffic and Road Safety,723,Encroachment of cycle lane,24,False,0.149
+9.0,Others,42,Others - Others,24,False,0.149
+11.0,Pollution,45,Land Pollution,23,False,0.143
+15.0,"Mobility - Roads, Footpaths and Infrastructure",32,Removal Of Illegal Posters And Hoardings,23,False,0.143
+15.0,"Mobility - Roads, Footpaths and Infrastructure",347,Need Lane Markings/Street Name/Road Signages,22,False,0.137
+6.0,Garbage and Unsanitary Practices,447,Regular Sweeping Of Streets,21,False,0.131
+15.0,"Mobility - Roads, Footpaths and Infrastructure",354,Construction Of Skywalk/Flyover/Underpass,21,False,0.131
+21.0,Traffic and Road Safety,377,Maintenance/Repair Of Traffic or Pedestrain Lights,20,False,0.124
+6.0,Garbage and Unsanitary Practices,340,Build Dry Waste Collection Centre,20,False,0.124
+11.0,Pollution,167,Pollution - Others,20,False,0.124
+15.0,"Mobility - Roads, Footpaths and Infrastructure",353,Beautification/Maintenance Of Medians Or Circles,18,False,0.112
+473.0,Trees and Saplings,356,Plant Saplings/Trees in your locality,18,False,0.112
+708.0,Yellow Spot,710,Report A Dirty or Unusable Public Toilet,18,False,0.112
+7.0,Lakes,341,Desilting/Remove Blockage In Lakes,17,False,0.106
+6.0,Garbage and Unsanitary Practices,433,Clearing Of Roadside Dustbin,17,False,0.106
+21.0,Traffic and Road Safety,476,Pillion Rider Not Wearing Helmet,17,False,0.106
+21.0,Traffic and Road Safety,430,Installation Of Traffic Sign Boards,16,False,0.1
+21.0,Traffic and Road Safety,198,Using Mobile Phone,16,False,0.1
+19.0,Animal Husbandry,75,Controlling Of Stray Cattle Or Maintenance Of Cattle Pound,16,False,0.1
+23.0,Water Supply and Services,420,Maintenance Of Existing Water Pipeline,16,False,0.1
+205.0,Sanitation,242,Maintanence of sewage lines,15,False,0.093
+15.0,"Mobility - Roads, Footpaths and Infrastructure",450,Dangling Or Hanging Of OFCs/Cables/Wires,15,False,0.093
+21.0,Traffic and Road Safety,193,Defective/Fancy Number Plate,15,False,0.093
+22.0,Parks & Recreation,358,Construction Of New Parks,15,False,0.093
+4.0,Electricity and Power Supply,370,Repair Of Transformers/Electric Poles,15,False,0.093
+21.0,Traffic and Road Safety,197,Triple Riding,14,False,0.087
+21.0,Traffic and Road Safety,475,Jumping Traffic Signal,13,False,0.081
+21.0,Traffic and Road Safety,374,Installation Of Traffic or Pedestrain Lights,13,False,0.081
+23.0,Water Supply and Services,378,Provision for a New Water Pipeline,13,False,0.081
+203.0,Water Supply,231,Reduce water leakage and wastage,13,False,0.081
+4.0,Electricity and Power Supply,428,Installation Of New transformers/Electric Poles,13,False,0.081
+21.0,Traffic and Road Safety,195,Stopped on Zebra Cross,13,False,0.081
+473.0,Trees and Saplings,87,Prevent Unauthorized Tree Cutting,12,False,0.075
+472.0,Sewerage Systems,311,Removal Of Sewer Pipe Blockages and Overflows,12,False,0.075
+15.0,"Mobility - Roads, Public transport",422,Repair Of Existing Footpaths,12,False,0.075
+15.0,"Mobility - Roads, Footpaths and Infrastructure",453,Repair of Bridge and Culverts,12,False,0.075
+21.0,Traffic and Road Safety,419,Repair of pedestrian lights,11,False,0.068
+2.0,Crime and Safety,427,Playing Of Loudspeakers Without Permisson,11,False,0.068
+21.0,Traffic and Road Safety,375,Repair of  mast light at a busy road (main road) junction,11,False,0.068
+4.0,Electricity and Power Supply,369,Relocation Of Transformers/Electric Poles,10,False,0.062
+15.0,"Mobility - Roads, Footpaths and Infrastructure",413,Provision For Parking,10,False,0.062
+1.0,Certificates,50,Khata Certificate,10,False,0.062
+382.0,Community Infrastructure and Services,394,Fencing Of BBMP/Government Land,10,False,0.062
+382.0,Community Infrastructure and Services,395,Construction Of Residential Quarters,10,False,0.062
+168.0,Public Transport - BMTC,64,Construction Of New Bus Shelter,10,False,0.062
+454.0,Public Toilets,157,Cleaning Of Public Toilet,10,False,0.062
+205.0,Sanitation,241,Construction of sewage lines,10,False,0.062
+6.0,Garbage and Unsanitary Practices,538,Garbage Dump,9,False,0.056
+15.0,"Mobility - Roads, Footpaths and Infrastructure",368,Installation Of Surveillance Cameras,9,False,0.056
+15.0,"Mobility - Roads, Footpaths and Infrastructure",451,Need Roadside Rainwater Harvesting System,9,False,0.056
+209.0,Safety and Crime,256,Increase police beat patrolling,9,False,0.056
+543.0,Covid 19,546,Violation of Lockdown during Covid-19,9,False,0.056
+7.0,Lakes,160,Removal of Encroachment In Lakes,8,False,0.05
+168.0,Public Transport - BMTC,170,Issue With Bus Driver Or Conductor,8,False,0.05
+708.0,Yellow Spot,709,1A- Address Public Urination or Yellow Spots,8,False,0.05
+168.0,Public Transport - BMTC,169,Provide New Bus Routes,8,False,0.05
+708.0,Yellow Spot,712,"2A- Require New Footpath
+",8,False,0.05
+382.0,Community Infrastructure and Services,385,Construction Of Shopping And Commercial Complexes,7,False,0.044
+,(missing),188,(missing),7,False,0.044
+205.0,Sanitation,239,Repair  of broken storm water drains,7,False,0.044
+15.0,"Mobility - Roads, Footpaths and Infrastructure",449,Maintenance Of Surveillance Cameras,7,False,0.044
+1.0,Certificates,149,Certificates - Other,7,False,0.044
+6.0,Garbage and Unsanitary Practices,443,Implementation Of Waste Segregation/Garbage,7,False,0.044
+21.0,Traffic and Road Safety,199,Violating lane discipline,7,False,0.044
+5.0,Fire Safety,312,Fire safety - Others,6,False,0.037
+2.0,Crime and Safety,425,Two Wheeler Wheeling,6,False,0.037
+168.0,Public Transport - BMTC,60,Maintenance/Repair Of Bus Shelter,6,False,0.037
+268.0,Water Supply,279,Maintain regular water supply,6,False,0.037
+207.0,Electricity & Power,246,Repair of transformers/ electric poles,6,False,0.037
+,(missing),712,Report A Broken Footpath,6,False,0.037
+18.0,Storm Water Drains,365,Sidewall And Fencing For Storm Water Drains,6,False,0.037
+1.0,Certificates,24,Birth Or Death Certificate,6,False,0.037
+23.0,Water Supply and Services,440,Installation Of Drinking Water ATMs,5,False,0.031
+,(missing),192,(missing),5,False,0.031
+564.0,PWD,594,Repair of Potholes on Roads,5,True,0.031
+2.0,Crime and Safety,424,Increase Number Of Beat Patrols,5,False,0.031
+19.0,Animal Husbandry,511,Dog,5,False,0.031
+15.0,"Mobility - Roads, Footpaths and Infrastructure",452,Repair Of Roadside Rainwater Harvesting System,5,False,0.031
+473.0,Trees and Saplings,513,Remove Unwanted Tree Guards,5,False,0.031
+382.0,Community Infrastructure and Services,3,Maintenance/Renovation Of Heritage Sites,5,False,0.031
+708.0,Yellow Spot,715,3A- Require Playing and Gym Equipment,4,False,0.025
+,(missing),709,Report A Public Urination or Yellow Spot,4,False,0.025
+19.0,Animal Husbandry,434,Rabies Vaccination,4,False,0.025
+205.0,Sanitation,238,Construction of storm water drains,4,False,0.025
+23.0,Water Supply and Services,506,Illegal Pump,4,False,0.025
+470.0,Streetlights,471,Installation/Maintenance Of Streetlight Timer,3,False,0.019
+,(missing),190,(missing),3,False,0.019
+,(missing),710,Report A Dirty or Unusable Public Toilet,3,False,0.019
+708.0,Yellow Spot,710,1B- Require New Public Toilet,3,False,0.019
+168.0,Public Transport - BMTC,372,Increase Frequency Of Bus Services,3,False,0.019
+205.0,Sanitation,240,Desilting of Storm water Drains,3,False,0.019
+22.0,Parks & Recreation,467,Maintenance Of Existing Public Toilet In Parks,3,False,0.019
+21.0,Traffic and Road Safety,196,Taking a U-turn where U-turn is prohibited,3,False,0.019
+6.0,Garbage and Unsanitary Practices,541,Sweeping Not Done,3,False,0.019
+6.0,Garbage and Unsanitary Practices,542,Open Manholes Or Drains,3,False,0.019
+1.0,Certificates,149,Other Certificates,3,False,0.019
+2.0,Crime and Safety,426,Shops/Establishments Being Open in Late Hours,3,False,0.019
+5.0,Fire Safety,90,Fire Exit Blocked,3,False,0.019
+22.0,Parks & Recreation,468,Installation Of Lights In Parks,3,False,0.019
+271.0,Public transport (BMTC and Metro),294,Build new bus stands or shelters,3,False,0.019
+273.0,Power supply,305,Better maintenance of transformers,3,False,0.019
+202.0,"Mobility - Roads, Public transport",215,Construction of flyovers/ underpass,3,False,0.019
+22.0,Parks & Recreation,465,Plant New Tree Saplings In Parks,3,False,0.019
+22.0,Parks & Recreation,466,Construction Of New Public Toilet In Parks,3,False,0.019
+7.0,Lakes,437,Sidewalls And Fencing For Lake,2,False,0.012
+19.0,Animal Husbandry,526,Controlling Of Stray Pigs,2,False,0.012
+21.0,Traffic and Road Safety,194,Not wearing seat belt,2,False,0.012
+19.0,Animal Husbandry,435,Maintenance Of City Meat Production And Processing Centre,2,False,0.012
+6.0,Garbage and Unsanitary Practices,446,Maintenance Of Dry Waste Collection Centre,2,False,0.012
+6.0,Garbage and Unsanitary Practices,524,Improper Disposal Of Feacal Waste Or  Septage,2,False,0.012
+207.0,Electricity & Power,247,Ensure efficient and uninterrupted power supply,2,False,0.012
+273.0,Power supply,303,Provide 24 hour power supply,2,False,0.012
+382.0,Community Infrastructure and Services,401,Maintenance Of Existing Council Buildings,2,False,0.012
+382.0,Community Infrastructure and Services,393,Construction Of Markets,2,False,0.012
+271.0,Public transport (BMTC and Metro),293,Better quality and maintenance of buses,2,False,0.012
+172.0,Public Transport - KSRTC,173,KSRTC - Driver or Conductor,2,False,0.012
+19.0,Animal Husbandry,511,Stray Dog Sterilisation/Animal Birth Control (ABC),2,False,0.012
+21.0,Traffic and Road Safety,477,Stunt Riding,2,False,0.012
+454.0,Public Toilets,525,Urination In Public Or Open Defecation,2,False,0.012
+464.0,Playgrounds,456,Construction Of New Public Toilet In Playground,2,False,0.012
+271.0,Public transport (BMTC and Metro),296,Build or improve metro rail network,2,False,0.012
+209.0,Safety and Crime,257,Introduce neighbourhood policing,2,False,0.012
+,(missing),189,(missing),2,False,0.012
+464.0,Playgrounds,357,Construction Of New Playground,2,False,0.012
+472.0,Sewerage Systems,381,Maintenance Of Sewage Treatment Plant,2,False,0.012
+565.0,Solid Waste Management,609,Garbage vehicle not arrived,2,False,0.012
+202.0,"Mobility - Roads, Public transport",217,Installation of traffic lights,2,False,0.012
+382.0,Community Infrastructure and Services,404,Maintenance Of Educational Institutions And Libraries,2,False,0.012
+21.0,Traffic and Road Safety,429,Installation Of Traffic Surveillance Camera,1,False,0.006
+21.0,Traffic and Road Safety,200,Wrong parking,1,False,0.006
+6.0,Garbage and Unsanitary Practices,537,Dustbins not cleared,1,False,0.006
+5.0,Fire Safety,34,Fire Pump is on OFF Mode,1,False,0.006
+21.0,Traffic and Road Safety,201,Using black film-other materials,1,False,0.006
+6.0,Garbage and Unsanitary Practices,540,Wet Waste Vehicle Not Arrived,1,False,0.006
+23.0,Water Supply and Services,535,Water Meter,1,False,0.006
+22.0,Parks & Recreation,469,Maintenance Of Lights In Parks,1,False,0.006
+23.0,Water Supply and Services,431,Maintenance Of Existing Water Tank,1,False,0.006
+172.0,Public Transport - KSRTC,175,KSRTC - Others,1,False,0.006
+172.0,Public Transport - KSRTC,174,KSRTC - Need new Bus Route,1,False,0.006
+203.0,Water Supply,232,Regular supply of water,1,False,0.006
+202.0,"Mobility - Roads, Public transport",224,Construction of skywalks,1,False,0.006
+202.0,"Mobility - Roads, Public transport",225,Introduction of new bus routes,1,False,0.006
+454.0,Public Toilets,463,Maintenance/Repair Of Toilet Fixtures,1,False,0.006
+382.0,Community Infrastructure and Services,410,Maintenance Of Existing Ward & Zonal Offices,1,False,0.006
+382.0,Community Infrastructure and Services,399,Maintenance Of Shopping And Commercial Complexes,1,False,0.006
+382.0,Community Infrastructure and Services,402,Maintenance Of Crematoriums And Burial ground,1,False,0.006
+382.0,Community Infrastructure and Services,388,Construction Of Crematoriums And Burial ground,1,False,0.006
+382.0,Community Infrastructure and Services,363,Maintenance Of Existing Swimming Pools,1,False,0.006
+382.0,Community Infrastructure and Services,359,Construction Of Stadiums,1,False,0.006
+382.0,Community Infrastructure and Services,390,Construction Of Educational Institutions And Libraries,1,False,0.006
+268.0,Water Supply,276,Increase public taps and borewells-water pumps,1,False,0.006
+23.0,Water Supply and Services,505,Illegal Connection,1,False,0.006
+454.0,Public Toilets,528,Cleaning Of Septic Tank Of Public Toilets,1,False,0.006
+464.0,Playgrounds,458,Installation Of Lights In Playground,1,False,0.006
+464.0,Playgrounds,459,Maintenance Of Lights In Playground,1,False,0.006
+489.0,Ration Card,496,Ration Card - Others,1,False,0.006
+473.0,Trees and Saplings,512,Tree Guards required,1,False,0.006
+464.0,Playgrounds,361,Maintenance Of Existing Playground,1,False,0.006
+555.0,Animal Catcher,511,Dog,1,False,0.006
+543.0,Covid 19,545,Violation of Quarantine during Covid-19,1,False,0.006
+543.0,Covid 19,544,Request for Fogging/Sanitation during Covid-19,1,False,0.006
+497.0,EMP Grievance Redressal,498,Gradation List,1,False,0.006
+478.0,Pension,488,Others,1,False,0.006
+708.0,Yellow Spot,711,Report A Dirty or Unusable Mobile Public Toilet,1,False,0.006
+637.0,Waste Management,652,Cleaning of litter bins,1,False,0.006
+640.0,Parks & Garden,678,Cleanliness of public Garden,1,False,0.006
+562.0,Fire Pollution,588,Burning of garbage in open space,1,False,0.006
+708.0,Yellow Spot,711,1C- Repair Dirty or Unusable Public Toilet,1,False,0.006
+641.0,"Proibition & Sale of Tobacco products, Plastic carry bags",681,Spitting,1,False,0.006
+565.0,Solid Waste Management,597,Cleaning Of Drain,1,False,0.006
+565.0,Solid Waste Management,610,Garbage dump,1,False,0.006
+565.0,Solid Waste Management,613,Debris removal or construction material,1,False,0.006
+,(missing),56,(missing),1,False,0.006
+,(missing),713,Report Garbage or Debris on Footpath,1,False,0.006

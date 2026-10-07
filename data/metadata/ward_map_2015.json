@@ -1,0 +1,15 @@
+{
+  "key": "ward_map_2015",
+  "label": "BBMP Ward Map - 2015 (198 wards)",
+  "source_identifier": "bbmp-ward-information/a0329df6-2924-43f4-8fe4-7a6ffcc1d53d",
+  "publisher": "BBMP (as republished by OpenCity)",
+  "host": "OpenCity",
+  "license": "Not specified in OpenCity metadata",
+  "url": "https://data.opencity.in/dataset/87b978d1-352e-4b90-aa2c-9991e55d3425/resource/a0329df6-2924-43f4-8fe4-7a6ffcc1d53d/download/806d6b9c-e8d9-4eb0-a3a3-b2ba68ec3cda.kml",
+  "file": "bbmp_ward_map_2015.kml",
+  "retrieved_at": "2026-10-07T12:36:10+00:00",
+  "file_size": 1195953,
+  "sha256": "44c721814b0bcf9faab48a09f621cb1a27cf5fc081c49d5dc1ecba0c85bee4cc",
+  "http_status": 200,
+  "status": "downloaded"
+}
