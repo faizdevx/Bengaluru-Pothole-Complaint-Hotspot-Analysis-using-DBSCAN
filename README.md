@@ -17,6 +17,9 @@ This is geographic concentrations of civic pothole **complaints**. It does not m
 <a href="https://pytest.org/"><img src="https://img.shields.io/badge/Pytest-Testing-0A9EDC?logo=pytest&logoColor=white" alt="Pytest"></a>
 
 </div>
+
+---------
+
 ## Problem
 
 Where are pothole-related civic complaints concentrating in Bengaluru, and which areas repeatedly show elevated complaint activity over time?
