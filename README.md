@@ -3,19 +3,20 @@
 **Bengaluru Pothole Complaint Hotspot Analysis using DBSCAN**
 
 This is geographic concentrations of civic pothole **complaints**. It does not measure actual pothole density or physical road-condition severity
-<p align="centre">
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Pandas](https://img.shields.io/badge/Pandas-data%20analysis-150458?logo=pandas)
-![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi)
-![SQLite](https://img.shields.io/badge/SQLite-database-003B57?logo=sqlite)
-![Leaflet](https://img.shields.io/badge/Leaflet-maps-199900?logo=leaflet)
-![SciPy](https://img.shields.io/badge/SciPy-statistics-8CAAE6?logo=scipy)
-![Shapely](https://img.shields.io/badge/Shapely-geospatial-3776AB)
-![PyProj](https://img.shields.io/badge/PyProj-CRS%20%2F%20projections-3776AB)
-![Pytest](https://img.shields.io/badge/Pytest-testing-0A9EDC?logo=pytest)
-</p>
+<div align="center">
 
+<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white" alt="Python"></a>
+<a href="https://pandas.pydata.org/"><img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white" alt="Pandas"></a>
+<a href="https://scikit-learn.org/"><img src="https://img.shields.io/badge/scikit--learn-Machine%20Learning-F7931E?logo=scikit-learn&logoColor=white" alt="Scikit-learn"></a>
+<a href="https://fastapi.tiangolo.com/"><img src="https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi&logoColor=white" alt="FastAPI"></a>
+<a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQLite-Database-003B57?logo=sqlite&logoColor=white" alt="SQLite"></a>
+<a href="https://leafletjs.com/"><img src="https://img.shields.io/badge/Leaflet-Maps-199900?logo=leaflet&logoColor=white" alt="Leaflet"></a>
+<a href="https://scipy.org/"><img src="https://img.shields.io/badge/SciPy-Statistics-8CAAE6?logo=scipy&logoColor=white" alt="SciPy"></a>
+<a href="https://shapely.readthedocs.io/"><img src="https://img.shields.io/badge/Shapely-Geospatial-3776AB" alt="Shapely"></a>
+<a href="https://pyproj4.github.io/pyproj/"><img src="https://img.shields.io/badge/PyProj-CRS%20%2F%20Projections-3776AB" alt="PyProj"></a>
+<a href="https://pytest.org/"><img src="https://img.shields.io/badge/Pytest-Testing-0A9EDC?logo=pytest&logoColor=white" alt="Pytest"></a>
+
+</div>
 ## Problem
 
 Where are pothole-related civic complaints concentrating in Bengaluru, and which areas repeatedly show elevated complaint activity over time?
