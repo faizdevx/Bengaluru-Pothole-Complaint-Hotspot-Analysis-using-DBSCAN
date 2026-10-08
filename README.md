@@ -1,13 +1,26 @@
-# Bengaluru Pothole Hotspot Detector
+# Bengaluru Pothole Complaint Hotspot Analysis
 
 **Bengaluru Pothole Complaint Hotspot Analysis using DBSCAN**
 
-> **Scope.** This project identifies geographic concentrations of civic pothole **complaints**. It does not measure actual pothole density or physical road-condition severity.
+This is geographic concentrations of civic pothole **complaints**. It does not measure actual pothole density or physical road-condition severity
+<p align="centre">
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-data%20analysis-150458?logo=pandas)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikit-learn)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?logo=fastapi)
+![SQLite](https://img.shields.io/badge/SQLite-database-003B57?logo=sqlite)
+![Leaflet](https://img.shields.io/badge/Leaflet-maps-199900?logo=leaflet)
+![SciPy](https://img.shields.io/badge/SciPy-statistics-8CAAE6?logo=scipy)
+![Shapely](https://img.shields.io/badge/Shapely-geospatial-3776AB)
+![PyProj](https://img.shields.io/badge/PyProj-CRS%20%2F%20projections-3776AB)
+![Pytest](https://img.shields.io/badge/Pytest-testing-0A9EDC?logo=pytest)
+</p>
 
 ## Problem
 
 Where are pothole-related civic complaints concentrating in Bengaluru, and which areas repeatedly show elevated complaint activity over time?
-
+This project analyzes historical Bengaluru civic complaint data to identify geographic concentrations and persistent areas of pothole reporting. It combines geospatial preprocessing, Haversine-based DBSCAN clustering, parameter sensitivity analysis, non-pothole baseline comparison, temporal persistence testing, and a FastAPI + Leaflet dashboard.  
+Important: the analysis measures complaint/reporting concentration, not physical pothole density, road-condition severity, or future pothole risk.
 ## Dataset
 
 **Janaagraha / I Change My City – Complaints Log, 2019–2022**, hosted on [OpenCity](https://data.opencity.in/dataset/i-change-my-city-data) (CC BY-SA).
@@ -23,6 +36,20 @@ Where are pothole-related civic complaints concentrating in Bengaluru, and which
 | Pothole rows clustered | 1,982 (113 reports at suspected default/fallback map pins excluded) |
 
 Provenance, checksums, licences and measured data quality: [`DATASET.md`](DATASET.md), [`DATASET_FEASIBILITY.md`](DATASET_FEASIBILITY.md), `reports/data_feasibility.json`.
+
+## What this project demonstrates
+
+- Geospatial data cleaning and point-in-polygon analysis
+- Haversine-distance DBSCAN clustering
+- Parameter sweeps and clustering stability analysis
+- Baseline comparison against non-pothole complaints
+- Temporal trend and persistence analysis
+- Statistical significance testing with Poisson/Binomial null models
+- Benjamini–Hochberg multiple-testing correction
+- Reproducible data ingestion with checksums and provenance
+- Privacy-preserving analytical APIs
+- FastAPI + SQLite + Leaflet dashboard
+- Automated tests for analytical and API behavior
 
 ## Data status
 
@@ -60,13 +87,24 @@ OpenCity / Janaagraha CSV ─► download (checksum, retrieved_at) ─► schema
 
 ## Results (actual, from `python scripts/run_pipeline.py`)
 
-- **eps = 250 m, min_samples = 5** → **76 clusters**, 586 clustered reports, **1,396 noise reports (70.4%)**.
-- Only 3 of 60 swept settings passed the documented selection criteria; the choice is a judgement, not an optimum.
-- At that setting, random same-size subsets of non-pothole complaint locations give 48 ± 6 clusters and 84% noise: pothole reports are more concentrated than general portal activity, but much of the structure reflects where people use the portal.
-- Largest cluster: 23 reports (326 m radius). 45 of 76 clusters have ≤ 7 reports (weak evidence).
-- 26 of 198 wards are **persistent complaint areas** under the documented definition; ~89% of their reports date from 2019–2020.
-- Portal usage collapses over time (1,403 pothole complaints in 2019; 104 in Jan–Jul 2022), so “recent activity” and trends mostly reflect that decline.
-- Cross-check: Fix My Street pothole density is about 2× higher inside iCMyC cluster footprints than elsewhere (May–June 2022).
+Using 1,982 usable pothole complaint observations:
+
+| Metric | Result |
+|---|---:|
+| Selected DBSCAN | eps = 250 m, min_samples = 5 |
+| Spatial clusters | 76 |
+| Clustered reports | 586 |
+| Noise reports | 1,396 (70.4%) |
+| Persistent wards | 26 / 198 |
+| Largest cluster | 23 reports |
+| Baseline clusters | 48.4 ± 6.2 |
+| HDBSCAN clusters | 127 |
+
+### What the results mean
+
+Pothole complaints are more spatially concentrated than randomly sampled non-pothole complaints from the same portal. However, the difference is partly explained by uneven civic-portal usage.
+
+The analysis therefore identifies **hotspots of pothole reporting**, not confirmed concentrations of physical potholes.
 
 Full discussion, including over-/under-clustering and parameter sensitivity: [`reports/analysis_report.md`](reports/analysis_report.md).
 
